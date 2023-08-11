@@ -13,6 +13,7 @@ import DesignPattern.Decorateur.VoitureElectrique;
 import DesignPattern.Strategy.GreenColorStrategy;
 import DesignPattern.Strategy.RedColorStrategy;
 import DesignPattern.Strategy.TextFormatter;
+import DesignPattern.Proxy.CommandExecutorTest;
 
 // # Compile Java files
 // javac -d bin -cp lib/* src/*.java src/DesignPattern/Strategy/*.java src/DesignPattern/Decorateur/*.java  src/DesignPattern/*.java
@@ -23,8 +24,9 @@ public class App {
         System.out.println("DESIGN PATTERNS\n");
 
         // testSingleton();
-        testDecorateur1();
-        testDecorateur2();
+        // testDecorateur1();
+        // testDecorateur2();
+        CommandExecutorTest.test();
     }
 
     private static void testDecorateur2() {
